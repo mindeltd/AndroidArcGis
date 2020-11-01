@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#379683">
+
+
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/sklypas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10pt"
+        android:text="Sklypo informacija: "
+        android:textSize="20sp" />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/uredija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Urėdija: "
+        android:textSize="15sp"
+        android:layout_below="@id/sklypas"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/girininkija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Girininkija: "
+        android:textSize="15sp"
+        android:layout_below="@id/uredija"
+        android:paddingBottom="20px"
+        android:layout_marginTop="5pt"
+
+        />
+
+    <TextView
+        android:id="@+id/kvartalas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/girininkija"
+        android:layout_marginTop="5pt"
+        android:width="95pt"
+        android:fontFamily="@font/montserrat"
+        android:paddingBottom="20px"
+        android:text="Kvartalo numeris: "
+        android:textColor="#000000"
+        android:textSize="14sp" />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/sklypoNr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sklypo numeris: "
+        android:textSize="14sp"
+        android:layout_toRightOf="@id/kvartalas"
+        android:layout_below="@id/girininkija"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="5pt"
+        />
+
+    <TextView
+        android:id="@+id/miskoTipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/kvartalas"
+        android:width="95pt"
+        android:fontFamily="@font/montserrat"
+        android:text="Miško tipas: "
+        android:textColor="#000000"
+        android:textSize="14sp" />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/miskoGrupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Miško grupė: "
+        android:textSize="14sp"
+        android:layout_marginLeft="10pt"
+        android:layout_below="@id/kvartalas"
+        android:layout_toRightOf="@id/miskoTipas"
+        />
+    <TextView
+        android:id="@+id/saugomosTeritorijos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miskoGrupe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15pt"
+        android:fontFamily="@font/montserrat"
+        android:text="Saugomos teritorijos"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/bastTipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BAST: "
+        android:textSize="15sp"
+        android:layout_below="@id/saugomosTeritorijos"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/pastTipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAST: "
+        android:textSize="15sp"
+        android:layout_below="@id/bastTipas"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/draustinioTipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Draustinis: "
+        android:textSize="15sp"
+        android:layout_below="@id/pastTipas"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/rezervatoTipas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rezervatas: "
+        android:textSize="15sp"
+        android:layout_below="@id/draustinioTipas"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/leidimai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leidimai/Įstatymai"
+        android:textSize="20sp"
+        android:layout_below="@id/rezervatoTipas"
+        android:layout_marginTop="10pt"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/kirtimai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirtimų leidimai: "
+        android:textSize="15sp"
+        android:layout_below="@id/leidimai"
+        android:layout_marginTop="10pt"
+        />
+    <TextView
+        android:fontFamily="@font/montserrat"
+        android:textColor="#000000"
+        android:id="@+id/draudimai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Įstatymai: "
+        android:textSize="15sp"
+        android:layout_below="@id/kirtimai"
+        android:layout_marginTop="15pt"
+        />
+
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

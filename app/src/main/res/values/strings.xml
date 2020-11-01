@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Miško informacinė sistema</string>
+    <string name="aurora_co_gpkg">AuroraCO.gpkg</string>
+    <string name="uredijaa_gpkg">uredija.gpkg</string>
+    <string name="uredija_gpkg">uredija.gpkg</string>
+    <string name="vilnius_gpkg">vilnius.gpkg</string>
+    <string name="urd_gpkg">urd.gpkg</string>
+    <string name="geopackage_folder">/ArcGIS/Samples/GeoPackage/</string>
+    <string name="geopackage_read_permission_denied">GeoPackage could not be opened because READ permission was denied</string>
+    <string name="write_permission_denied">Data could not open because WRITE permission was denied.</string>
+    <string name="shapefile_path">/ArcGIS/Samples/ShapeFile/Aurora_CO_shp/Public_Art.shp</string>
+    <string name="uredija_shp">/ArcGIS/Samples/ShapeFile/uredija.shp</string>
+    <string name="girininkija_gpkg">girininkija.gpkg</string>
+
+
+    <string name="config_data_sdcard_offline_dir">ArcGIS/samples/MapPackage</string>
+    <string name="yellowstone_mmpk">Yellowstone</string>
+    <string name="mmp_mmpk">mmp</string>
+    <string name="ltmap_mmpk">ltmap</string>
+    <string name="location_permission_denied">Open Mobile Map Package could not open because WRITE permission was denied.</string>
+
+</resources>
